@@ -6,6 +6,8 @@
 <link href="_css/base.css" rel="stylesheet" type="text/css" media="screen">
 <style>
 /*styles go here*/
+
+
 </style>
 </head>
 <body>
@@ -17,6 +19,7 @@
 </header>
 <article class="example">
 <form class="register-form">
+<section class="form-group">
 <h3>Personal Info</h3>
 <ul class="form-fields">
   <li><label for="name">Name:</label> <input type="text" name="name" id="name" placeholder="your full name" class="text-input"></li>
@@ -90,6 +93,8 @@
   <li><label for="company">Company:</label> <input type="text" name="company" id="company" placeholder="company" class="text-input"></li>
   <li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="your phone number" class="text-input"></li>
 </ul>
+</section>
+<section class="form-group">
 <h3>Sessions</h3>
 <h4>Skills</h4>
 <p>Listing skills will help us match up our break out sessions and lunch!</p>
@@ -120,9 +125,12 @@
   <li><input type="radio" id="gluten" value="gluten" name="food"> <label for="gluten">Gluten Free</label></li>
   <li><label for="food-options">Please list any dietary restrictions:</label><textarea id="food-options" name="food-options" class="text-area">food allergies or other restrictions</textarea> </li>
 </ul>
+</section>
+<secetion class="form-submit">
 <h4>All finished?</h4>
 <p>We're looking forward to seeing you!</p>
 <button type="submit" class="register-btn">Register</button>
+</section>
 </form>
 </article>
 </body>
