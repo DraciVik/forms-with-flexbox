@@ -6,14 +6,12 @@
 <link href="_css/base.css" rel="stylesheet" type="text/css" media="screen">
 <style>
 .register-form {
-  line-height: 1.4;
-  margin-right: -2em;
+	line-height: 1.4;
 }
 .form-group {
-  background: #F6DDCE;
-  margin-bottom: 1em;
-  padding: 10px;
-  margin-right: 2em;
+	background: #F6DDCE;
+	margin-bottom: 1em;
+	padding: 10px;
 }
 .form-group ul {
 	list-style: none;
@@ -58,17 +56,17 @@
   background: #f2f2f2;
 }
 .form-food textarea {
-  display: block;
-  box-sizing: border-box;
-  font: 0.9em Lato, Helvetica, sans-serif;
-  width: 90%;
-  height: 6em;
-  overflow: auto;
-  padding: 0.6em 0.8em;
-  color: #999;
-  background: #F7F7F7;
-  border: 1px solid #E1E1E1;
-  line-height: normal;
+    display: block;
+    box-sizing: border-box;
+    font: 0.9em Lato, Helvetica, sans-serif;
+    width: 90%;
+    height: 6em;
+    overflow: auto;
+    padding: 0.6em 0.8em;
+    color: #999;
+    background: #f7f7f7;
+    border: 1px solid #e1e1e1;
+    line-height: normal;
 }
 .register-btn {
 	border-radius: 0px 2px 2px 0px;
@@ -86,20 +84,22 @@
 .register-btn:hover, .register-btn:focus {
 	background: #C17CCF;
 }
-/* flex it */
+/*flex it*/
 .register-form {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -2em;
 }
 .form-group {
-  flex: 1 0 300px;
-}
-.form-fields li {
-  display: flex;
-  flex-wrap: wrap;
+	flex: 1 0 300px;
+	margin-right: 2em;
 }
 .form-submit {
-  flex: 0 0 100%;
+	flex: 0 0 100%;
+}
+.form-fields li {
+	display: flex;
+	flex-wrap: wrap;
 }
 .form-fields input[type="text"],
 .form-fields input[type="tel"],
@@ -107,22 +107,31 @@
 .form-fields input[type="email"],
 .form-fields input[type="number"],
 .form-fields select {
-  flex: 1 0 230px;
+	flex: 1 0 230px;
 }
 .form-fields label {
-  flex: 1 0 90px;
-  max-width: 200px;
+	flex: 1 0 90px;
+	max-width: 200px;
 }
 .form-skills, .form-workshop {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .form-skills li {
-  width: 145px;
+	width: 145px;
 }
 .form-workshop li {
-  flex: 1 0 200px;
+	flex: 1 0 200px;
+}
+@media (max-width: 400px) {
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0 0 2em;
+}
+header, .form-submit {
+	padding: 2% 5%;
 }
 </style>
 </head>
